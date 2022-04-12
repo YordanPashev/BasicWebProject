@@ -20,6 +20,5 @@ namespace ParkingSystem.Controllers
             DataAccess.Cars.Remove(car);
             return Redirect("/");
         }
-
     }
 }
